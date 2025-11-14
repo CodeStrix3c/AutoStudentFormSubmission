@@ -1,0 +1,325 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.UnitTests\\ASFS.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Application\\ASFS.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Application\\ASFS.Application.csproj",
+        "projectName": "ASFS.Application",
+        "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Application\\ASFS.Application.csproj",
+        "packagesPath": "C:\\Users\\bilal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bilal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\ASFS.Domain.csproj": {
+                "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\ASFS.Domain.csproj"
+              },
+              "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Infrastructure\\ASFS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Infrastructure\\ASFS.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\ASFS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\ASFS.Domain.csproj",
+        "projectName": "ASFS.Domain",
+        "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\ASFS.Domain.csproj",
+        "packagesPath": "C:\\Users\\bilal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bilal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Infrastructure\\ASFS.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Infrastructure\\ASFS.Infrastructure.csproj",
+        "projectName": "ASFS.Infrastructure",
+        "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Infrastructure\\ASFS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\bilal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bilal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\ASFS.Domain.csproj": {
+                "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\ASFS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.UnitTests\\ASFS.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.UnitTests\\ASFS.UnitTests.csproj",
+        "projectName": "ASFS.UnitTests",
+        "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.UnitTests\\ASFS.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\bilal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bilal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Application\\ASFS.Application.csproj": {
+                "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Application\\ASFS.Application.csproj"
+              },
+              "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\ASFS.Domain.csproj": {
+                "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Domain\\ASFS.Domain.csproj"
+              },
+              "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Infrastructure\\ASFS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\bilal\\Desktop\\Code Strix Projects\\Student Submission\\ASFS\\ASFS.Infrastructure\\ASFS.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

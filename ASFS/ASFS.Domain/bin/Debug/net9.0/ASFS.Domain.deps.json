@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ASFS.Domain/1.0.0": {
+        "runtime": {
+          "ASFS.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASFS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
