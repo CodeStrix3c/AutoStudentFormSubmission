@@ -1,7 +1,0 @@
-C:\Users\bilal\Desktop\Code Strix Projects\Student Submission\ASFS\ASFS.UnitTests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_ASFS.UnitTests
-C:\Users\bilal\Desktop\Code Strix Projects\Student Submission\ASFS\ASFS.UnitTests\bin\Debug\net9.0\CoverletSourceRootsMapping_ASFS.UnitTests
-C:\Users\bilal\Desktop\Code Strix Projects\Student Submission\ASFS\ASFS.UnitTests\obj\Debug\net9.0\ASFS.UnitTests.csproj.AssemblyReference.cache
-C:\Users\bilal\Desktop\Code Strix Projects\Student Submission\ASFS\ASFS.UnitTests\obj\Debug\net9.0\ASFS.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\bilal\Desktop\Code Strix Projects\Student Submission\ASFS\ASFS.UnitTests\obj\Debug\net9.0\ASFS.UnitTests.AssemblyInfoInputs.cache
-C:\Users\bilal\Desktop\Code Strix Projects\Student Submission\ASFS\ASFS.UnitTests\obj\Debug\net9.0\ASFS.UnitTests.AssemblyInfo.cs
-C:\Users\bilal\Desktop\Code Strix Projects\Student Submission\ASFS\ASFS.UnitTests\obj\Debug\net9.0\ASFS.UnitTests.csproj.CoreCompileInputs.cache
