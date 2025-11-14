@@ -18,4 +18,6 @@ public class FormRequest
     public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
     public DateTimeOffset? SubmittedAt { get; set; }
     public DateTimeOffset UpdatedAt { get; set; } = DateTimeOffset.UtcNow;
+    public Guid WorkflowId { get; set; }   
+
 }

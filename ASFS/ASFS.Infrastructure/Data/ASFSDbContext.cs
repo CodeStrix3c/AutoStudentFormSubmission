@@ -14,6 +14,8 @@ namespace ASFS.Infrastructure.Data
         // Extra entities added later (attachments, approvals) will also go here:
         public DbSet<FormAttachment> FormAttachments => Set<FormAttachment>();
         public DbSet<Approval> Approvals => Set<Approval>();
+        public DbSet<Workflow> Workflows => Set<Workflow>();
+        public DbSet<ApprovalStep> ApprovalSteps => Set<ApprovalStep>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -52,6 +54,21 @@ namespace ASFS.Infrastructure.Data
                 b.HasOne<FormRequest>()
                     .WithMany()
                     .HasForeignKey(x => x.FormId)
+                    .OnDelete(DeleteBehavior.Cascade);
+            });
+            modelBuilder.Entity<Workflow>(b =>
+            {
+                b.HasKey(x => x.Id);
+                b.Property(x => x.Name).HasMaxLength(200).IsRequired();
+            });
+
+            modelBuilder.Entity<ApprovalStep>(b =>
+            {
+                b.HasKey(x => x.Id);
+                b.Property(x => x.ApproverRole).HasMaxLength(100).IsRequired();
+                b.HasOne<Workflow>()
+                    .WithMany(w => w.Steps)
+                    .HasForeignKey(x => x.WorkflowId)
                     .OnDelete(DeleteBehavior.Cascade);
             });
 

@@ -13,5 +13,7 @@ namespace ASFS.Infrastructure.Repositories
 
         Task<IReadOnlyList<Approval>> GetInboxAsync(string approverAadId);
         Task<IReadOnlyList<Approval>> GetByFormIdAsync(Guid formId);
+        Task<Approval?> GetPendingByFormAndStepAsync(Guid formId, int stepOrder);
+
     }
 }

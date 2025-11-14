@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ASFS.Api\ASFS.Api.csproj" />
     <ProjectReference Include="..\ASFS.Application\ASFS.Application.csproj" />
     <ProjectReference Include="..\ASFS.Domain\ASFS.Domain.csproj" />
     <ProjectReference Include="..\ASFS.Infrastructure\ASFS.Infrastructure.csproj" />

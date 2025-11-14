@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using ASFS.Application.DTOs;
+using ASFS.Application.Interfaces;
 using ASFS.Application.Services;
 using ASFS.Domain.Entities;
 using ASFS.Infrastructure.Repositories;
@@ -19,7 +20,7 @@ namespace ASFS.UnitTests
             repoMock.Setup(r => r.AddAsync(It.IsAny<FormRequest>()))
                 .ReturnsAsync((FormRequest f) => f);
 
-            var service = new FormService(repoMock.Object);
+            var service = new FormService(repoMock.Object, Mock.Of<INotificationService>());
             var dto = new CreateFormRequestDto(Guid.NewGuid(), "{\"field\":\"value\"}");
             var studentAad = "aad-123";
 

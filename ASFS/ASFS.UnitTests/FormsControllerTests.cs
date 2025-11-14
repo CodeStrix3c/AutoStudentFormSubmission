@@ -1,13 +1,10 @@
-﻿using System;
-using System.Security.Claims;
-using System.Threading.Tasks;
+﻿using System.Security.Claims;
 using ASFS.Api.Controllers;
 using ASFS.Application.DTOs;
 using ASFS.Application.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using Xunit;
 
 namespace ASFS.UnitTests
 {

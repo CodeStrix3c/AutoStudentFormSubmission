@@ -12,10 +12,11 @@ namespace ASFS.Application.Services
     public class FormService : IFormService
     {
         private readonly IFormRepository _repo;
-
-        public FormService(IFormRepository repo)
+        private readonly INotificationService _notification;
+        public FormService(IFormRepository repo, INotificationService notification)
         {
             _repo = repo;
+            _notification = notification;
         }
 
         public async Task<FormResponseDto> CreateAsync(CreateFormRequestDto dto, string studentAadId)
@@ -72,6 +73,8 @@ namespace ASFS.Application.Services
             f.UpdatedAt = DateTimeOffset.UtcNow;
 
             await _repo.UpdateAsync(f);
+
+            await _notification.NotifyFormSubmittedAsync(studentAadId, f.Id.ToString());
         }
 
         public async Task<IReadOnlyList<FormResponseDto>> GetMyFormsAsync(string studentAadId)

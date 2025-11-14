@@ -23,7 +23,10 @@ namespace ASFS.Api.Extensions
             services.AddScoped<IAttachmentRepository, AttachmentRepository>();
             services.AddScoped<IApprovalRepository, ApprovalRepository>();
             services.AddScoped<IApprovalService, ApprovalService>();
-
+            services.AddScoped<IWorkflowRepository, WorkflowRepository>();
+            services.AddScoped<IEmailSender, EmailSender>();
+            services.AddScoped<ISmsSender, SmsSender>();
+            services.AddScoped<INotificationService, NotificationService>();
 
             return services;
         }

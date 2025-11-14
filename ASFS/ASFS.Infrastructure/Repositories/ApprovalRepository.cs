@@ -50,5 +50,14 @@ namespace ASFS.Infrastructure.Repositories
                 .OrderBy(a => a.StepOrder)
                 .ToListAsync();
         }
+        public async Task<Approval?> GetPendingByFormAndStepAsync(Guid formId, int stepOrder)
+        {
+            return await _db.Approvals
+                .FirstOrDefaultAsync(a =>
+                    a.FormId == formId &&
+                    a.StepOrder == stepOrder &&
+                    a.Decision == ApprovalDecision.Pending);
+        }
+
     }
 }
